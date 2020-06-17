@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-configurations-base',
-    version='2020.6.11',
+    version='2020.6.17',
     install_requires=[
         'dj-database-url',
         'django-configurations',

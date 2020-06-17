@@ -29,7 +29,7 @@ class BaseConfiguration(AppsConfiguration,TemplatesConfiguration):
     STATIC_URL = '/static/'
     STATICFILES_DIRS = values.ListValue([])
     SECRET_KEY = values.SecretValue()
-    WSGI_APPLICATION = 'wsgi.application'
+    WSGI_APPLICATION = values.Value(None)
 
     @classmethod
     def pre_setup(cls):
