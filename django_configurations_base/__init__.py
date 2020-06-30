@@ -29,6 +29,7 @@ class BaseConfiguration(AppsConfiguration,TemplatesConfiguration):
     STATIC_URL = '/static/'
     STATICFILES_DIRS = values.ListValue([])
     SECRET_KEY = values.SecretValue()
+    TIME_ZONE = values.Value('UTC')
     WSGI_APPLICATION = values.Value(None)
 
     @classmethod

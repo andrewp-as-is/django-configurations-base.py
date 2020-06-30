@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
+
 
 [![](https://img.shields.io/pypi/v/django-configurations-base.svg?maxAge=3600)](https://pypi.org/project/django-configurations-base/)
 [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-configurations-base.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-configurations-base.py/)
+[![](https://github.com/andrewp-as-is/django-configurations-base.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-configurations-base.py/actions)
 
-#### Installation
+### Installation
 ```bash
 $ [sudo] pip install django-configurations-base
 ```
@@ -35,6 +35,7 @@ key | default value | env
 `STATIC_ROOT` | `os.path.join(BASE_DIR, 'static')` | `DJANGO_STATIC_ROOT`
 `STATICFILES_DIRS` | `os.path.join(BASE_DIR, 'assets')` (if `./assets/` exists) | `DJANGO_STATICFILES_DIRS`
 `TEMPLATES` | [django-configurations-templates](https://pypi.org/project/django-configurations-templates/) | [django-configurations-templates](https://pypi.org/project/django-configurations-templates/)
+`TIME_ZONE` | `UTC` | `DJANGO_TIME_ZONE`
 `WSGI_APPLICATION` | `wsgi.application` | `DJANGO_WSGI_APPLICATION`
 
 
@@ -76,5 +77,5 @@ class Base(BaseConfiguration,...):
 +   [dj-database-url](https://github.com/jacobian/dj-database-url)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

@@ -1,16 +1,7 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='django-configurations-base',
-    version='2020.6.17',
-    install_requires=[
-        'dj-database-url',
-        'django-configurations',
-        'django-configurations-apps',
-        'django-configurations-templates',
-        'setuptools',
-    ],
-    packages=[
-        'django_configurations_base',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
+    packages=setuptools.find_packages()
 )
