@@ -17,7 +17,6 @@ $ [sudo] pip install django-configurations-base
 from django_configurations_base import BaseConfiguration
 
 class Base(BaseConfiguration):
-    ...
 ```
 
 ##### `.env`
@@ -28,9 +27,6 @@ DJANGO_STATIC=/static/
 
 #### Links
 +   [django-configurations](https://github.com/jazzband/django-configurations)
-+   [django-configurations-apps](https://pypi.org/project/django-configurations-apps/)
-+   [django-configurations-templates](https://pypi.org/project/django-configurations-templates/)
-+   [dj-database-url](https://github.com/jacobian/dj-database-url)
 
 <p align="center">
     <a href="https://readme42.com/">readme42.com</a>
