@@ -12,11 +12,15 @@ https://readme42.com
 $ [sudo] pip install django-configurations-base
 ```
 
+#### Features
++   base configuration with standard keys and default values
+
 ##### `settings.py`
 ```python
 from django_configurations_base import BaseConfiguration
 
 class Base(BaseConfiguration):
+    # no need to define standard keys
 ```
 
 ##### `.env`
